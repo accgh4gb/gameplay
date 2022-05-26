@@ -14,7 +14,7 @@ int main()
 	initscr();
 	nodelay(stdscr, true);
 	echo();
-	char ch;
+	char ch = 0;
 	while(ch != 27)
 	{
 		clear();
